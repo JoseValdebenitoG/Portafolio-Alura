@@ -1,0 +1,48 @@
+.hero__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.hero__profile {
+    padding: .5rem .8rem;
+    width: 6rem;
+    border-radius: 100px;
+}
+
+.hero__bio {
+    font-size: 1.3rem;
+    padding: 1.1rem .8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hero__subsection, .about__paragraph {
+    padding: .5rem .8rem;
+    text-align: justify;
+    font-weight: 200;
+    color: var(--colorLink);
+}
+
+.hero__network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__network__item {
+    font-size: .8rem;
+    align-items: center;
+    padding: .3rem;
+    margin: .2rem .4rem;
+    border-radius: 5px;
+}
+
+.network__logo {
+    width: .9rem;
+    padding-left: .2rem;
+}
+
+.about__container {
+    background: var(--colorBack);
+}
