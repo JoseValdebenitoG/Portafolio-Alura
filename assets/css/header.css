@@ -1,16 +1,18 @@
 .menu{
-    background-color: var(--colorBackHead);
-    display: flex;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
     justify-content: space-between;
     padding: .8rem;
+    position: sticky;
+    top: 0;
     width: 100vw;
 }
 
 .menu__header {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 .header__logo {
@@ -27,6 +29,10 @@
     color: var(--colorFontNormal);
     justify-content: flex-end;
     font-size: .7rem;
+    transition: color 1s;
+}
+.menu__list__item__contact a:hover {
+    color: var(--colorFontHover);
 }
 
 .menu__list {

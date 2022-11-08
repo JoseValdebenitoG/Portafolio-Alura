@@ -1,10 +1,9 @@
 :root{
 --colorBack: #111111;
---colorBackBlue: #EAF2FD;
 --colorFontHover: rgba(255,211,81);
 --colorBackHead: #000000;
---colorBackFoot: #444444;
---colorFontNormal: #404040;
+--colorBackCard: #444444;
+--colorFontNormal: #626161;
 --colorFontTitle: #316C9E;
 }
 
@@ -30,8 +29,24 @@ a{
 .title {
     color: var(--colorFontTitle);
     font-family: 'Amaranth', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 1.1rem .8rem;
     font-weight: 600;
     text-align: center;
+}
+
+.button__empty {
+    background: none;
+    border: 1px solid var(--colorFontTitle);
+    border-radius: 5px;
+    color: var(--colorFontTitle);
+    padding: .5rem .8rem;
+}
+
+.button__full {
+    background: var(--colorFontTitle);
+    border: 1px solid var(--colorFontTitle);
+    border-radius: 5px;
+    color: var(--colorBackHead);
+    padding: .5rem .8rem;
 }

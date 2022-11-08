@@ -1,0 +1,32 @@
+.footer {
+	padding-top: 45px;
+	background-color: #000000;
+	align-self: flex-end;
+}
+
+.social__invite {
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social-links a {
+	margin: 0 10px;
+}
+
+.social {
+	background-color: #fff;
+    border-radius: 10px;
+	padding: 10px;
+    width: 3rem;
+}
+
+.made__by {
+    color: #222;
+    text-align: left;
+}

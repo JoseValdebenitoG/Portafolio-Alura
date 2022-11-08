@@ -1,0 +1,23 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience__box {
+    background-color: var(--colorBackHead);
+    border-radius: 5px;
+    height: inherit;
+    margin: .5rem auto;
+    padding: .9rem .9rem;
+    width: 95%;
+}
+
+.experience__img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.experience__text {
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
