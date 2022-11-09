@@ -1,0 +1,46 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm__contacto{
+    margin: .5rem auto;
+}
+
+.contactForm--left {
+    display: none;
+}
+
+.contactForm__right {
+    padding: .5rem .9rem;
+    text-align: left;
+    width: 100%;
+}
+
+.contactForm__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm__subtext {
+    margin-bottom: 1.2rem;
+}
+
+.contactForm__input, .contactForm__textarea {
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+    margin: .6rem 0;
+    padding: 1.2rem .5rem;
+    resize: none;
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .contactForm__right {
+        width: 95vw;
+    }
+}
+    
+

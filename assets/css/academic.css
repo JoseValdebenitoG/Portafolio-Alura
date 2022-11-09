@@ -6,9 +6,9 @@
 .academic__courses__box {
     background-color: var(--colorBackHead);
     border-radius: 5px;
-    height: 12rem;
+    height: inherit;
     margin: .5rem auto;
-    padding: 0 .9rem;
+    padding: .9rem .9rem;
     width: 90%;
 }
 
@@ -24,4 +24,14 @@
 
 .academic__courses__item__subtitle {
     font-size: .8rem;
+}
+
+@media screen and (min-width:768px) {
+    .academic__courses {
+        flex-direction: row;
+        padding: 0 .9rem;
+    }
+    .academic__courses__box  {
+        width: 30%;
+    }
 }

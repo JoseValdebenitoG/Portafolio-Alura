@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/hobbies.css">
     <link rel="stylesheet" href="assets/css/academic.css">
     <link rel="stylesheet" href="assets/css/experience.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <title>Mi Portafolio</title>
 </head>
@@ -35,9 +36,9 @@
                     <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
                     <li class="menu__list__item"><a href="#formacion">Formación</a></li>
                     <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                    <li class="menu__list__item"><a href="#contacto">jvaldebenitog@me.com</a></li>
+                    <li class="menu__list__item"><a href="#contact">jvaldebenitog@me.com</a></li>
                 </ul>
-                <li class="menu__list__item__contact"><a href="#contacto">jvaldebenitog@me.com</a></li>
+                <li class="menu__list__item__contact"><a href="#contact">jvaldebenitog@me.com</a></li>
             </nav>
         </section>
 
@@ -294,51 +295,53 @@
                     </div>
                 </div>
             </div>
+        </section>
 
             <!-- Sección de Contacto -->
-            <section class="formcontato" id="contacto">
-                <div class="formcontato__contacto">
-                    <div class="formcontato--esquerda">
-                        <img class="formcontato__img" src="assets\contact_image.png">
-                    </div>
-                    <div class="formcontato__text">
-                        <h2 class="title">Contacto</h2>
-                        <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
-                        <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con
-                            usted lo antes posible. </h3>
-                        <form class="formcontato__form" name="form">
-                            <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                            <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                            <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                            <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
-                                placeholder="Mensaje"></textarea>
-                            <button type="submit" class="button__full">Enviar mensaje</button>
-                        </form>
-                    </div>
+        <section class="contactForm" id="contact">
+            <div class="contactForm__contacto">
+                <div class="contactForm--left">
+                    <img class="contactForm__img" src="assets/img/contact_image.png">
                 </div>
-            </section>
-
-            <!-- Sección de Footer -->
-            <div class='footer'>
-                <div class='social__invite'>
-                    <div>
-                        <p>También puedes seguirme en mis redes sociales</p>
-                    </div>
-                </div>
-                <div class='social-links'>
-                    <div>
-                        <a target='_blank' href='https://twitter.com/JValdebenitoG'><img class='social' src="assets/img/twitter-black.png"/></a>
-                        <a target='_blank' href='https://www.instagram.com/josev.dev/'><img class='social' src="assets/img/instagram-black.png"/></a>
-                        <a target='_blank' href='https://github.com/josevaldebenitog'><img class='social' src="assets/img/github-black.png"/></a>
-                        <a target='_blank' href='https://www.linkedin.com/in/jvaldebenitog/'><img class='social' src="assets/img/linkedin-black.png"/></a>
-                    </div>
-                </div>
-                <div class='made__by'>
-                    <div>
-                        <p>&copy Hecho con ❤️  por José Valdebenito</p>
-                    </div>
+                <div class="contactForm__right">
+                    <h2 class="title">Contacto</h2>
+                    <h3 class="contactForm__subtext--question">¿Quieres contactarme?</h3>
+                    <h4 class="contactForm__subtext">
+                        Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. 
+                    </h4>
+                    <form class="contactForm__form" name="form">
+                        <input class="contactForm__input" type="text" name="nombre" placeholder="Nombre">
+                        <input class="contactForm__input" type="email" name="email" placeholder="E-mail">
+                        <input class="contactForm__input" type="text" name="asunto" placeholder="Asunto">
+                        <textarea class="contactForm__textarea" rows="5" cols="40" id="message" name="mensaje"placeholder="Mensaje"></textarea>
+                        <button type="submit" class="button__full">Enviar mensaje</button>
+                    </form>
                 </div>
             </div>
+        </section>
+
+            <!-- Sección de Footer -->
+        <section class='footer'>
+            <div class='social__invite'>
+                <div>
+                    <p>También puedes seguirme en mis redes sociales</p>
+                </div>
+            </div>
+            <div class='social-links'>
+                <div>
+                    <a target='_blank' href='https://twitter.com/JValdebenitoG'><img class='social' src="assets/img/twitter-black.png"/></a>
+                    <a target='_blank' href='https://www.instagram.com/josev.dev/'><img class='social' src="assets/img/instagram-black.png"/></a>
+                    <a target='_blank' href='https://github.com/josevaldebenitog'><img class='social' src="assets/img/github-black.png"/></a>
+                    <a target='_blank' href='https://www.linkedin.com/in/jvaldebenitog/'><img class='social' src="assets/img/linkedin-black.png"/></a>
+                </div>
+            </div>
+            <div class='made__by'>
+                <div>
+                    <p>&copy Hecho con ❤️  por José Valdebenito</p>
+                </div>
+            </div>
+        </section>
+        
 
     </main>
     <script src="validation.js"></script>

@@ -25,3 +25,9 @@
 .skills__logo {
     width: 3rem;
 }
+
+@media screen and (min-width:768px) {
+    .skills__box {
+        width: 30%;
+    }
+}

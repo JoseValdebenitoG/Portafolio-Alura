@@ -39,3 +39,16 @@
     width: .9rem;
     padding-left: .2rem;
 }
+
+@media screen and (min-width:768px) {
+    .hero__div {
+        flex-direction: row-reverse;
+        text-align: left;
+    }
+    .hero__profile {
+        width: 9rem;
+    }
+    .hero__network {
+        justify-content: flex-start;
+    }
+}

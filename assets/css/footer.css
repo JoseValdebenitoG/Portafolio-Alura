@@ -6,6 +6,7 @@
 
 .social__invite {
     text-align: center;
+    color: var(--colorFontNormal);
 }
 
 .social-links {

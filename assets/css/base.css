@@ -49,4 +49,5 @@ a{
     border-radius: 5px;
     color: var(--colorBackHead);
     padding: .5rem .8rem;
+    margin: .5rem 0;
 }
