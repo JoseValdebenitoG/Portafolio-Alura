@@ -1,0 +1,22 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "portafolio personal en javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseValdebenitoG/Portafolio"
+  },
+  "keywords": [
+    "portafolio"
+  ],
+  "author": "Jose Valdebenito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseValdebenitoG/Portafolio/issues"
+  },
+  "homepage": "https://github.com/JoseValdebenitoG/Portafolio#readme"
+}
