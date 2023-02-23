@@ -12,6 +12,10 @@
     width: 95%;
 }
 
+.experience__box:hover {
+    transform: scale(1.01);
+}
+
 .experience__img {
     margin: 0 auto;
     width: 100%;
