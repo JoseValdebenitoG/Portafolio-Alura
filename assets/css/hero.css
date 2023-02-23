@@ -1,7 +1,6 @@
 .hero {
     background: url("/assets/img/setup.jpeg") center;
     background-size: cover;
-    
 }
 .hero__div {
     display: flex;
