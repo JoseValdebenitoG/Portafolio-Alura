@@ -1,6 +1,7 @@
 .experience {
     display: flex;
     flex-direction: column;
+    object-fit: inherit;
 }
 
 .experience__box {
